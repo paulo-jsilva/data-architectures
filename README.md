@@ -14,7 +14,7 @@ Hence, they address the following scenarios
 - Ideally, no AI model should be trained with the document to submit, in order to scan and read the content successfully
 
 ### Services
-#### HTTP client</br>
+#### HTTP client
 sw client which makes the call to read the table's content. One type of client can be Azure Data Factory (ADF) 
 </br>`Azure Function` (C#): orchestrate the request from HTTP client
 </br>`Cognitive Services (Form Recognizer)`: AI service specialized to scan and read content from images
