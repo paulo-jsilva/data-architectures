@@ -15,10 +15,13 @@ Hence, they address the following scenarios
 
 ### Services
 **HTTP client**</br>
-sw client which makes the call to read the table's content. One type of client can be Azure Data Factory (ADF) 
-`Azure Function` (C#): orchestrate the request from HTTP client
-</br>`Cognitive Services (Form Recognizer)`: AI service specialized to scan and read content from images
-</br>`Storage account`: endpoint where file is stored
+sw client which makes the call to read the table's content. One type of client can be Azure Data Factory (ADF) </br>
+**Azure Function** (C#): </br>
+orchestrate the request from HTTP client </br>
+**Cognitive Services (Form Recognizer)** </br> 
+AI service specialized to scan and read content from images </br>
+**Storage account** </br>
+endpoint where file is stored </br>
 </br></br>
 \* these services and other details are illustrated in architecture diagram 
 
