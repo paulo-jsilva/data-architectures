@@ -18,7 +18,7 @@ Hence, they address the following scenarios
 </br>`Azure Function` (C#): orchestrate the request from HTTP client
 </br>`Cognitive Services (Form Recognizer)`: AI service specialized to scan and read content from images
 </br>`Storage account`: endpoint where file is stored
-</br>
+</br></br>
 \* these services and other details are illustrated in architecture diagram 
 
 The key parameters to be passed, in the payload, by the client are the following:
