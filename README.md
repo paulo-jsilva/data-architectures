@@ -19,7 +19,7 @@ Hence, they address the following scenarios
 </br>`Cognitive Services (Form Recognizer)`: AI service specialized to scan and read content from images
 </br>`Storage account`: endpoint where file is stored
 </br>
-* these services and other details are illustrated in architecture diagram 
+\* these services and other details are illustrated in architecture diagram 
 
 The key parameters to be passed, in the payload, by the client are the following:
 `document-path`: document-image location
