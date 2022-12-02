@@ -16,7 +16,7 @@ Hence, they address the following scenarios
 ### Services
 **HTTP client**</br>
 sw client which makes the call to read the table's content. One type of client can be Azure Data Factory (ADF) </br></br>
-**Azure Function** (C#): </br>
+**Azure Function** (C#) </br>
 orchestrate the request from HTTP client </br></br>
 **Cognitive Services (Form Recognizer)** </br> 
 AI service specialized to scan and read content from images </br></br>
@@ -24,8 +24,8 @@ AI service specialized to scan and read content from images </br></br>
 endpoint where file is stored </br></br>
 \* these services and other details are illustrated in architecture diagram 
 
-The key parameters to be passed, in the payload, by the client are the following:
-`document-path`: document-image location
-`page`: page where the table is
-'table-position`: table position within the page as there can exist more than one
-'outbound-fieldset`: fields names associated to the dataset to be generated
+The key parameters to be passed, in the payload, by the client are the following: </br>
+**document-path** document-image location </br>
+**page** page where the table is </br>
+**table-position**: table position within the page as there can exist more than one </br>
+**outbound-fieldset**: fields names associated to the dataset to be generated
