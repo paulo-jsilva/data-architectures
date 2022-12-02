@@ -5,8 +5,8 @@ Hence, they address the following scenarios
 
 ## 1 - Data as a Service for document-image container
 ### Requirements
-- Scan and Extract content from within a table in an document-image (example `pdf`) stored in a data lake, whether document's path is a public or private endpoint. </br>
-- Table length might be broken across several pages.
+- Scan and Extract content from within a table in an document-image (example `pdf`) stored in a data lake, whether document's path is a public or private endpoint
+- Table length might be broken across several pages
 - Output content as a json dataset along with pre-defined fields names
 - Table format and image quality may vary regarding font, borderline and gray scale
 - Concerning where file is located, whether it's a public or private endpoint, respectively data must be read directly from the source location or streamed out
