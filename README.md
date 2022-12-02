@@ -23,8 +23,8 @@ AI service specialized to scan and read content from images </br></br>
 **Storage account** </br>
 endpoint where file is stored </br></br>
 \* these services and other details are illustrated in architecture diagram 
-</br></br></br>
-The key parameters to be passed, in the payload, by the client are the following: </br>
+</br></br>
+#### The key parameters to be passed, in the payload, by the client are the following: </br>
 **document-path** document-image location </br>
 **page** page where the table is </br>
 **table-position**: table position within the page as there can exist more than one </br>
