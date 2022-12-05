@@ -29,3 +29,8 @@ endpoint where file is stored </br></br>
 **page** page where the table is </br>
 **table-position**: table position within the page as there can exist more than one </br>
 **outbound-fieldset**: fields names associated to the dataset to be generated
+
+### Data Flow
+Partial flow with black arrows is the common path for the two mutual exclusive alternative flows (green | blue) to read file content
+Blue path - file content is streamed out to Cognitive Services - Form Recognizer endpoint
+Green path - file contend is read directly from data lake by Cognitive Services - Form Recognizer endpoint
