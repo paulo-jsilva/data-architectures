@@ -8,7 +8,7 @@ Hence, they address the following scenarios
 
 ## Data Engineering as a Service for document-image container
 
-![DEaas for document-image container](https://raw.githubusercontent.com/paulo-jsilva/data-architectures/master/DEaaS-4document-image-2.png?raw=True)
+![DEaas for document-image container](https://raw.githubusercontent.com/paulo-jsilva/data-architectures/main/DEaaS-4document-image-2.png?raw=True)
 
 ### Requirements
 - Scan and Extract content from within a table in an document-image (example `pdf`) stored in a data lake, whether document's path is a public or private endpoint
