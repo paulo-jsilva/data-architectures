@@ -3,8 +3,8 @@ Hence, they address the following scenarios
 
 # Index
 
-[1 - Data Engineering as a Service for document-image container]([##1---data-engineering-as-a-service-for-document-image-container)) </br>
-2 - Azure Log Analytics Workspace for Multi-cloud monitoring
+[1 - Data Engineering as a Service for document-image container]([##1---data-engineering-as-a-service-for-document-image-container) </br>
+[2 - Azure Log Analytics Workspace for Multi-cloud monitoring]([#-azure-log-analytics-workspace-for-multi-cloud-monitoring])
 
 ## Data Engineering as a Service for document-image container
 
@@ -44,3 +44,4 @@ Green path - file contend is read directly from data lake by Cognitive Services 
 
 ## Azure Log Analytics Workspace for Multi-cloud monitoring
 
+![Azure Log Analytics Workspace](https://raw.githubusercontent.com/paulo-jsilva/data-architectures/master/AzureLAW-multi-cloud-monitoing.png?raw=True)
