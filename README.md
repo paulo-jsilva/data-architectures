@@ -4,6 +4,9 @@ We can find here distinctive architectures to suit different requirements, based
 Hence, they address the following scenarios
 
 ## 1 - Data as a Service for document-image container
+
+https://drive.google.com/file/d/1e2N77IvMCSipPBX2iyF4S_mwXVoVay5J/view?usp=share_link
+
 ### Requirements
 - Scan and Extract content from within a table in an document-image (example `pdf`) stored in a data lake, whether document's path is a public or private endpoint
 - Table length might be broken across several pages
