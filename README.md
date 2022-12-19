@@ -8,7 +8,7 @@ Hence, they address the following scenarios
 
 ## Data Engineering as a Service for document-image container
 
-![DEaas for document-image container](https://raw.githubusercontent.com/paulo-jsilva/data-architectures/main/DEaaS-4document-image-2.png?raw=True)
+![DEaaS-4document-image-container](https://user-images.githubusercontent.com/60786166/208467766-de9789d0-166a-441f-8526-82be866500d0.png)
 
 ### Requirements
 - Scan and Extract content from within a table in an document-image (example `pdf`) stored in a data lake, whether document's path is a public or private endpoint
@@ -41,7 +41,8 @@ Partial flow with black arrows is the common path for the two mutual exclusive a
 Blue path - file content is streamed out to Cognitive Services - Form Recognizer endpoint
 Green path - file contend is read directly from data lake by Cognitive Services - Form Recognizer endpoint
 
-
+------
 ## Azure Log Analytics Workspace for Multi-cloud monitoring
 
-![Azure Log Analytics Workspace](https://raw.githubusercontent.com/paulo-jsilva/data-architectures/master/AzureLAW-multi-cloud-monitoing.png?raw=True)
+![AzureLAW-multi-cloud-monitoing](https://user-images.githubusercontent.com/60786166/208469581-9964df87-e0e1-4907-a899-95be83d2989e.png)
+
