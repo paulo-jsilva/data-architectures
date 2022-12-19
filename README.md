@@ -1,11 +1,14 @@
-# data-architectures
-
 We can find here distinctive architectures to suit different requirements, based on Azure Cloud services
 Hence, they address the following scenarios
 
-## 1 - Data as a Service for document-image container
+# Index
 
-![DEaas for document-image container](https://raw.githubusercontent.com/paulo-jsilva/data-architectures/master/DEaaS-4document-image-2.png)
+[1 - Data Engineering as a Service for document-image container]([##1---data-engineering-as-a-service-for-document-image-container)) </br>
+2 - Azure Log Analytics Workspace for Multi-cloud monitoring
+
+## Data Engineering as a Service for document-image container
+
+![DEaas for document-image container](https://raw.githubusercontent.com/paulo-jsilva/data-architectures/master/DEaaS-4document-image-2.png?raw=True)
 
 ### Requirements
 - Scan and Extract content from within a table in an document-image (example `pdf`) stored in a data lake, whether document's path is a public or private endpoint
@@ -37,3 +40,7 @@ endpoint where file is stored </br></br>
 Partial flow with black arrows is the common path for the two mutual exclusive alternative flows (green | blue) to read file content
 Blue path - file content is streamed out to Cognitive Services - Form Recognizer endpoint
 Green path - file contend is read directly from data lake by Cognitive Services - Form Recognizer endpoint
+
+
+## Azure Log Analytics Workspace for Multi-cloud monitoring
+
