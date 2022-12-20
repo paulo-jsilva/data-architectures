@@ -52,7 +52,14 @@ Green path - file contend is read directly from data lake by Cognitive Services 
 - analytics and notifications must be provided through a built-in solution on the market 
 
 ### Sources of Logging
-there could be more, but here in the example were identifed 3 inbound sources:
+there could be more, but here in the example were identifed 3 inbound sources:</br>
 1- spark clusters: set up Init config with two libraries - spark-listeners_<Spark Version>_<Scala Version>-<Version>.jar and spark-listeners-loganalytics_<Spark Version>_<Scala Version>-<Version>.jar - to push logs to Azure LAW </br>
 2- application logs: add logs to your code as you wish to push them through Azure LAW API </br>
 3- diagnose settings (Azure): in Azure services, where available, set up services' Diagnose Settings to push audit logs to Azure LAW
+  
+### Data preparation
+Use of a service such as Azure Runbook, to pull data out of Log Analytics Workspace, (make transformations and) save the logs to file format of your choice. It will be ready later to be consumed by an analytical tool.
+  
+### Serve data
+There are a few out of the shelf options to present and notify events-related data </br>
+Azure's built-in Notifications and Dashboards are effective options, easily integrated with Azure LAW to create meaningful dashboards based gon RBAC roles and set up relevant notifications based on queries (w/ time series) to the data existing in Azure LAW
