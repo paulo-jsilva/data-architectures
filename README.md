@@ -46,3 +46,13 @@ Green path - file contend is read directly from data lake by Cognitive Services 
 
 ![AzureLAW-multi-cloud-monitoing](https://user-images.githubusercontent.com/60786166/208469581-9964df87-e0e1-4907-a899-95be83d2989e.png)
 
+### Requirements
+- monitor different types of log data, from different sources, regardless of cloud provider
+- data in the repository must be queried through a standard language or API, platform must be scalable and cost effective
+- analytics and notifications must be provided through a built-in solution on the market 
+
+### Sources of Logging
+there could be more, but here in the example were identifed 3 inbound sources:
+1- spark clusters: set up Init config with two libraries - spark-listeners_<Spark Version>_<Scala Version>-<Version>.jar and spark-listeners-loganalytics_<Spark Version>_<Scala Version>-<Version>.jar - to push logs to Azure LAW </br>
+2- application logs: add logs to your code as you wish to push them through Azure LAW API </br>
+3- diagnose settings (Azure): in Azure services, where available, set up services' Diagnose Settings to push audit logs to Azure LAW
